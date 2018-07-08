@@ -1,0 +1,46 @@
+body {
+  background: url(http://cdn.desktopwallpaper4.me/media/thumbs_400x250/1/389.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.left, .right {
+  width: 25%;
+
+}
+
+.middle {
+  width: 50%;
+
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width:100%;
+  }
+}
+
+.row {
+  padding-bottom: 10px;
+  text-align: center;
+
+}
+
+.header {
+  margin-top: 10%;
+}
+
+.row-centered {
+  text-align: center;
+}
