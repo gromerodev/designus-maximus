@@ -2,6 +2,7 @@ body {
   background: url(http://cdn.desktopwallpaper4.me/media/thumbs_400x250/1/389.jpg) no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 100px 0;
 }
 
 .row:after {
@@ -17,30 +18,17 @@ body {
 
 .left, .right {
   width: 25%;
-
 }
 
 .middle {
   width: 50%;
-
 }
-
+.row {
+  padding-bottom: 10px;
+  text-align: center;
+}
 @media screen and (max-width: 600px) {
   .column {
     width:100%;
   }
-}
-
-.row {
-  padding-bottom: 10px;
-  text-align: center;
-
-}
-
-.header {
-  margin-top: 10%;
-}
-
-.row-centered {
-  text-align: center;
 }
